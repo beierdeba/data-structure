@@ -33,7 +33,7 @@ public class ArrayList<E> extends AbstractList<E> {
         // 函数每次被调用都是 size + 1
         if (minCapacity - elementData.length > 0) {
             int oldCapacity = elementData.length;
-            int newCapacity = oldCapacity + oldCapacity >> 1; // 每次扩容1.5被
+            int newCapacity = oldCapacity + (oldCapacity >> 1); // 每次扩容1.5被
             if (newCapacity - minCapacity < 0) { // 如果初始大小是0的特殊情况
                 newCapacity = minCapacity;
             }

@@ -19,6 +19,9 @@ public class LinkedList<E> extends AbstractList<E> {
         }
     }
 
+    public LinkedList() {
+    }
+
     private Node<E> node(int index) {
         // 因为这是一个单向链表, 所以只能从fast开始查找
         rangeCheck(index);
