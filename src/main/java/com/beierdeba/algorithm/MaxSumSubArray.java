@@ -1,4 +1,4 @@
-package com.beierdaba.algorithm;
+package com.beierdeba.algorithm;
 
 /**
  * @author Administrator
